@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* LANDING PAGE STYLING */
+
+/* landing page background image styling */
+.landingPage {
+    position: relative;
+    background-image: url("../images/landingPageBackground.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* landing page h1 styling */
+
+.landingPage h1 {
+    position: absolute;
+    margin-top: 0;
+    color: #fff;
+    font-size: 4.5rem;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to { opacity: 1;}
+}
+
+/* landing page button styling */
+
+.landingPage a {
+    position: absolute;
+    border-radius: 100%;
+    padding: .3rem .5rem;
+    background-color: hsla(30, 9%, 96%, 0);
+    color: white;
+    border: none;
+    bottom: 10%;
+    cursor: pointer;
+
+    -webkit-animation: slideDown 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: slideDown 3s; /* Firefox < 16 */
+        -ms-animation: slideDown 3s; /* Internet Explorer */
+         -o-animation: slideDown 3s; /* Opera < 12.1 */
+            animation: slideDown 3s;
+}
+
+@keyframes slideDown {
+    0% {bottom: 40%}
+    100%{bottom: 10% }
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    70% {opacity: 0.2;}
+    100% { opacity: 1;}
+}
+
+.landingPage a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* BIO PAGE STYLING */
+
+.bioPage {
+    padding-top: 5rem;
+    height: 100vh;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+/* Styling the profile image */
+.bioPage img {
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
