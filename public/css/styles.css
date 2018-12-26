@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,9 +87,7 @@ p {
 
 .bioPage {
     padding-top: 5rem;
-    height: 100vh;
     width: 100%;
-    background-color: #f7f7f7;
 }
 
 /* Styling the profile image */
@@ -98,4 +97,80 @@ p {
     border-radius: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+hr {
+    border-top: 5px dotted #e6e6e6;
+    width: 50%;
+}
+
+/* EXPERIENCE PAGE STYLING */
+
+.stackPage {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.stackPage .col-lg {
+    margin: 1rem 1rem 3rem;
+}
+
+.stackPage .fas {
+    color: #d9d9d9;
+}
+.col-lg .card {
+    text-align: left;
+}
+.col-lg .card img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+}
+.card ul {
+    list-style: none;
+}
+
+/* PROJECT PAGE STYLING */
+
+.projectPage {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #262626;
+    color: #fff;
+}
+
+.projectPage .card-img-top {
+    padding: 2rem;
+}
+
+
+
+/* CONTACT PAGE STYLING */
+.contactPage {
+    padding: 3rem;
+}
+
+.contactForm {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    border-radius: 1rem;
+}
+
+.contactCard {
+    border-radius: 20%;
+    width: 80%;
+    padding: 1rem 0;
+    line-height: 1rem;
+    margin: 2rem auto;
+}
+
+/* FOOTER STYLING */
+
+.footerBar {
+    background-color: #000d1a;
+    color: #bfbfbf;
+    padding: 3rem 3rem;
 }

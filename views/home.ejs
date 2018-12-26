@@ -1,18 +1,111 @@
 <%- include("parts/header.ejs") -%>
 
-    <div class="container-fluid landingPage" id="landingPage">
-        <h1>Looking for a Web Developer?</h1>
-        <a href="javascript:void(0)" class="down-to-bio"><i class="fas fa-angle-double-down fa-3x"></i></a>
-    </div>
+<div class="container-fluid landingPage" id="landingPage">
+    <h1>Looking for a Web Developer?</h1>
+    <a href="javascript:void(0)" class="down-to-bio"><i class="fas fa-angle-double-down fa-3x"></i></a>
+</div>
 
-    <div class="container-fluid bioPage" id="bioPage">
-        <h1>Hello</h1>
-        <img src="images/pro-pic/profile.jpg" alt="Profile Image">
-        <p>My name is Joshua Okoro</p>
-        <p>And I'm a web developer</p>
-        <hr>
-        <h2>Experience</h2>
-        <hr>
+<div class="container bioPage" id="bioPage">
+    <h1>Hello</h1>
+    <img src="https://placeimg.com/640/480/people" alt="Profile Image">
+    <p>My name is John Doe</p>
+    <p>And I'm a full stack Web Developer</p>
+    <hr>
+    <h2>Experiences</h2>
+
+    <div class="container stackPage">
+        <div class="row">
+            <div class="col-lg">
+                <h3>Font End Stack</h3>
+                <i class="fas fa-arrow-down fa-2x"></i>
+                <div class="card">
+                    <img class="card-img-top" src="images/icons/html5Css3Js-logo.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p>Without users, there can't be a website. Without a front end, there can't be no backend.
+                            Front end determines if you users will keep visiting your site depending on their
+                            experience with the user interface. To perfect the right user interface, I use the
+                            following tools</p>
+                        <ul>
+                            <li><li><i class="fas fa-hashtag"></i> HTML5</li>
+                            <li><li><i class="fas fa-hashtag"></i> CSS3</li>
+                            <li><li><i class="fas fa-hashtag"></i> Javascript</li>
+                        </ul>
+                        <p>to bring to live the right user experience for your users</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <h3>Back End Stack</h3>
+                <i class="fas fa-arrow-down fa-2x"></i>
+                <div class="card">
+                    <img class="card-img-top" src="images/icons/nodejsExpMongo-logo.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p>A Web Application is not complete without the backend technology. Any backend developer can
+                            tell that, to have reliable backend that can keep up with performance and security while
+                            serving users daily request, it needs to be perfected. That's why I use the follow
+                            technoologies </p>
+                        <ul>
+                            <li><i class="fas fa-hashtag"></i> NodeJS</li>
+                            <li><i class="fas fa-hashtag"></i> ExpressJS</li>
+                            <li><i class="fas fa-hashtag"></i> MongoDB</li>
+                        </ul>
+                        <p>to build the perfect web application you need</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="container-fluid projectPage">
+    <h2>Projects</h2>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="card-img-top" src="https://placeimg.com/640/480/tech" alt="Card image cap">
+        </div>
+        <div class="col-lg-4">
+            <img class="card-img-top" src="https://placeimg.com/640/480/tech" alt="Card image cap">
+        </div>
+        <div class="col-lg-4">
+            <img class="card-img-top" src="https://placeimg.com/640/480/tech" alt="Card image cap">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid contactPage">
+    <div class="row">
+        <div class="col-lg-6">
+            <h5>Contact Me</h5>
+            <form class="contactForm" action="" method="post">
+                <div class="form-group">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5" placeholder="Message..."></textarea>
+                </div>
+                <button type="submit" class="btn badge-pill btn-success btn-lg btn-block">Send</button>
+            </form>
+        </div>
+        <div class="col-lg-6">
+                <h5>Contact Info</h5>
+            <div class="card contactCard">
+                <i class="far fa-id-badge fa-3x"></i>
+                <div class="card-body">
+                    <p>Name: John Doe</p>
+                    <p>Email: johndoe@email.com</p>
+                    <p>Phone: 987-654-32-10</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <%- include("parts/footer.ejs") -%>
